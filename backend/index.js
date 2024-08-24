@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions ={
-    origin:'https://shreydev-netflixclone.onrender.com',
+    origin:'https://shreydev-netflixclone-11.onrender.com',
     credentials:true
 }
 app.use(cors(corsOptions));
